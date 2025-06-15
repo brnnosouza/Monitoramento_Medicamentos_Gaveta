@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+log_temperatura.csv
+
+.idea/
+*.iml
+
+*.ino.*
+*.hex
+*.elf
+
+.DS_Store
+Thumbs.db
