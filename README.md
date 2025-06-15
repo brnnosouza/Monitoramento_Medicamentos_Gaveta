@@ -32,6 +32,14 @@ Este projeto tem como objetivo **monitorar em tempo real** essas condições den
 - 🖥️ **Display LCD 16x2 com interface I2C**
 - 🔌 **Cabo USB** – para comunicação com o computador
 
+  ### 💻 Software (Arduino)
+
+- 🔌 **Arduino IDE**
+- 📦 Bibliotecas Arduino utilizadas::
+  - `Wire.h` – permite a comunicação I2C entre o Arduino e dispositivos como o display LCD.
+  - `LiquidCrystal_I2C.h` – usada para controlar o display LCD 16x2 com interface I2C.
+  - `DHT.h` – para leitura de temperatura e umidade a partir do sensor DHT11.
+
 ### 💻 Software (Python)
 
 - 🐍 **Python 3.8+**
